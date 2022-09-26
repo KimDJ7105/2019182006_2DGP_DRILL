@@ -1,7 +1,7 @@
 from pico2d import *
 import math
 
-open_canvas()
+open_canvas(800,600)
 
 grass = load_image('grass.png')
 character = load_image('character.png')
@@ -37,7 +37,7 @@ while (True):
             y = y - 2
             delay(0.01)
 
-        rec = False
+        rec = True
     else :
         angle = -90
         while(angle < -82) :
