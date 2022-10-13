@@ -5,8 +5,6 @@ import logo_state
 
 image = None
 
-image = None
-
 def enter():
     global image
     image = load_image('title.png')
